@@ -77,3 +77,38 @@
   width: 320px;
   max-width: 100%;
 }
+
+.reservation-adress {
+  position: absolute;
+  bottom: 0;
+
+  color: var(--subtitle-1, #324052);
+
+  /* bttn */
+  font-family: 'Roboto Condensed';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: calc(36 / 24); /* 150% */
+  letter-spacing: -0.96px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: linear-gradient(
+    0deg,
+    #fbfcfc 19.92%,
+    rgba(255, 255, 255, 0) 97.11%
+  );
+
+  display: flex;
+  //   width: 160px;
+  //   height: 390px;
+  //   transform: rotate(-90deg);
+  padding: 37px 0px 37px 0px;
+  //   flex-direction: column;
+  justify-content: center;
+  //   align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+}
